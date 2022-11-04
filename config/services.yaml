@@ -1,0 +1,4 @@
+services:
+  Jolicht\DogadoEventsauceBundle\MessageDispatcher:
+    arguments:
+      - '@event.bus'
